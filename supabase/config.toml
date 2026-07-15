@@ -1,0 +1,17 @@
+[auth]
+enabled = false
+
+[api]
+enabled = false
+
+[db]
+enabled = false
+
+[functions]
+enabled = true
+
+[storage]
+enabled = false
+
+[realtime]
+enabled = false

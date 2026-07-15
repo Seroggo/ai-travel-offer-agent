@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "fmt": {
+    "include": [
+      "supabase/functions/",
+      "tests/unit/",
+      "tests/integration/",
+      "deno.json"
+    ],
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "tasks": {
+    "test": "deno test --allow-read",
+    "check": "deno check supabase/functions/**/*.ts",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint"
+  }
+}

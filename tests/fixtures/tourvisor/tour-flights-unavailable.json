@@ -1,0 +1,106 @@
+{
+  "error": {
+    "code": 0,
+    "reason": ""
+  },
+  "flights": [
+    {
+      "backward": [
+        {
+          "arrival": {
+            "date": "2026-08-22",
+            "port": {
+              "id": "DEMO-SVX",
+              "name": "DEMO Екатеринбург",
+              "shortName": "SVX",
+              "timeZone": "Asia/Yekaterinburg"
+            },
+            "time": "18:30"
+          },
+          "baggage": 20,
+          "carryOn": "5 kg",
+          "class": "economy",
+          "company": {
+            "id": "DEMO-AIR",
+            "logo": "https://example.invalid/airline/logo.png",
+            "name": "DEMO Airlines",
+            "thumb": "https://example.invalid/airline/thumb.png"
+          },
+          "departure": {
+            "date": "2026-08-22",
+            "port": {
+              "id": "DEMO-AYT",
+              "name": "DEMO Antalya Airport",
+              "shortName": "AYT",
+              "timeZone": "Europe/Istanbul"
+            },
+            "time": "13:00"
+          },
+          "fuelCharges": [],
+          "noPlaces": false,
+          "number": "DEMO-102",
+          "onDemand": false,
+          "plane": "A321"
+        }
+      ],
+      "dateBackward": "2026-08-22",
+      "dateForward": "2026-08-15",
+      "forward": [
+        {
+          "arrival": {
+            "date": "2026-08-15",
+            "port": {
+              "id": "DEMO-AYT",
+              "name": "DEMO Antalya Airport",
+              "shortName": "AYT",
+              "timeZone": "Europe/Istanbul"
+            },
+            "time": "12:00"
+          },
+          "baggage": 20,
+          "carryOn": "5 kg",
+          "class": "economy",
+          "company": {
+            "id": "DEMO-AIR",
+            "logo": "https://example.invalid/airline/logo.png",
+            "name": "DEMO Airlines",
+            "thumb": "https://example.invalid/airline/thumb.png"
+          },
+          "departure": {
+            "date": "2026-08-15",
+            "port": {
+              "id": "DEMO-SVX",
+              "name": "DEMO Екатеринбург",
+              "shortName": "SVX",
+              "timeZone": "Asia/Yekaterinburg"
+            },
+            "time": "06:30"
+          },
+          "fuelCharges": [],
+          "noPlaces": true,
+          "number": "DEMO-101",
+          "onDemand": false,
+          "plane": "A321"
+        }
+      ],
+      "fuelCharge": {
+        "currency": "RUB",
+        "value": 0
+      },
+      "isDefault": true,
+      "price": {
+        "currency": "RUB",
+        "value": 244000
+      }
+    }
+  ],
+  "info": {
+    "flags": {
+      "noFlight": false,
+      "noInsurance": false,
+      "noMeal": false,
+      "noTransfer": false
+    },
+    "surcharges": []
+  }
+}

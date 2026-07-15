@@ -1,0 +1,418 @@
+[
+  {
+    "category": 5,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": true,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900101,
+    "latitude": 36.8501,
+    "longitude": 30.7901,
+    "name": "DEMO Sun Family Resort",
+    "picturelink": "https://example.invalid/hotels/900101.jpg",
+    "price": 246000,
+    "rating": 4.6,
+    "region": {
+      "countryId": 9001,
+      "id": 9011,
+      "name": "Анталья"
+    },
+    "seaDistance": 150,
+    "subRegion": {
+      "id": 90111,
+      "name": "Лара",
+      "regionId": 9011
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-12",
+        "flightNights": 8,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900101-a",
+        "isCharter": true,
+        "isPromo": false,
+        "meal": {
+          "fullName": "All Inclusive",
+          "fullRussianName": "Всё включено",
+          "id": 907,
+          "name": "AI",
+          "russianName": "Всё включено"
+        },
+        "name": "DEMO Package 900101 A",
+        "nights": 8,
+        "operator": {
+          "fullName": "DEMO Operator One",
+          "id": 9201,
+          "name": "DEMO-ONE",
+          "russianName": "ДЕМО Оператор One"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 246000,
+        "roomId": 9501,
+        "roomType": "Family Room"
+      },
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-13",
+        "flightNights": 8,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900101-b",
+        "isCharter": true,
+        "isPromo": false,
+        "meal": {
+          "fullName": "Ultra All Inclusive",
+          "fullRussianName": "Ультра всё включено",
+          "id": 908,
+          "name": "UAI",
+          "russianName": "Ультра всё включено"
+        },
+        "name": "DEMO Package 900101 B",
+        "nights": 8,
+        "operator": {
+          "fullName": "DEMO Operator Two",
+          "id": 9202,
+          "name": "DEMO-TWO",
+          "russianName": "ДЕМО Оператор Two"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 258000,
+        "roomId": 9502,
+        "roomType": "Family Superior"
+      }
+    ]
+  },
+  {
+    "category": 4,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": true,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900102,
+    "latitude": 36.7652,
+    "longitude": 31.3881,
+    "name": "DEMO Coast Garden Hotel",
+    "picturelink": "https://example.invalid/hotels/900102.jpg",
+    "price": 238000,
+    "rating": 4.4,
+    "region": {
+      "countryId": 9001,
+      "id": 9012,
+      "name": "Сиде"
+    },
+    "seaDistance": 350,
+    "subRegion": {
+      "id": 90121,
+      "name": "Кумкёй",
+      "regionId": 9012
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-11",
+        "flightNights": 7,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900102-a",
+        "isCharter": true,
+        "isPromo": true,
+        "meal": {
+          "fullName": "All Inclusive",
+          "fullRussianName": "Всё включено",
+          "id": 907,
+          "name": "AI",
+          "russianName": "Всё включено"
+        },
+        "name": "DEMO Package 900102 A",
+        "nights": 7,
+        "operator": {
+          "fullName": "DEMO Operator One",
+          "id": 9201,
+          "name": "DEMO-ONE",
+          "russianName": "ДЕМО Оператор One"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 238000,
+        "roomId": 9503,
+        "roomType": "Standard Family"
+      }
+    ]
+  },
+  {
+    "category": 5,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": true,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900103,
+    "latitude": 36.5448,
+    "longitude": 31.9954,
+    "name": "DEMO Blue Bay Premium",
+    "picturelink": "https://example.invalid/hotels/900103.jpg",
+    "price": 272000,
+    "rating": 4.2,
+    "region": {
+      "countryId": 9001,
+      "id": 9013,
+      "name": "Аланья"
+    },
+    "seaDistance": 50,
+    "subRegion": {
+      "id": 90131,
+      "name": "Конаклы",
+      "regionId": 9013
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-14",
+        "flightNights": 9,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900103-a",
+        "isCharter": true,
+        "isPromo": false,
+        "meal": {
+          "fullName": "Ultra All Inclusive",
+          "fullRussianName": "Ультра всё включено",
+          "id": 908,
+          "name": "UAI",
+          "russianName": "Ультра всё включено"
+        },
+        "name": "DEMO Package 900103 A",
+        "nights": 9,
+        "operator": {
+          "fullName": "DEMO Operator Three",
+          "id": 9203,
+          "name": "DEMO-THREE",
+          "russianName": "ДЕМО Оператор Three"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 272000,
+        "roomId": 9504,
+        "roomType": "Sea View Family"
+      }
+    ]
+  },
+  {
+    "category": 4,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": true,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900104,
+    "latitude": 36.6031,
+    "longitude": 30.5592,
+    "name": "DEMO Budget Club Hotel",
+    "picturelink": "https://example.invalid/hotels/900104.jpg",
+    "price": 219000,
+    "rating": 3.9,
+    "region": {
+      "countryId": 9001,
+      "id": 9014,
+      "name": "Кемер"
+    },
+    "seaDistance": 800,
+    "subRegion": {
+      "id": 90141,
+      "name": "Бельдиби",
+      "regionId": 9014
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-10",
+        "flightNights": 8,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900104-a",
+        "isCharter": true,
+        "isPromo": true,
+        "meal": {
+          "fullName": "Half Board",
+          "fullRussianName": "Полупансион",
+          "id": 905,
+          "name": "HB",
+          "russianName": "Полупансион"
+        },
+        "name": "DEMO Package 900104 A",
+        "nights": 8,
+        "operator": {
+          "fullName": "DEMO Operator Two",
+          "id": 9202,
+          "name": "DEMO-TWO",
+          "russianName": "ДЕМО Оператор Two"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 219000,
+        "roomId": 9505,
+        "roomType": "Standard Room"
+      }
+    ]
+  },
+  {
+    "category": 5,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": true,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900105,
+    "latitude": 36.8625,
+    "longitude": 31.0551,
+    "name": "DEMO Flight Check Resort",
+    "picturelink": "https://example.invalid/hotels/900105.jpg",
+    "price": 244000,
+    "rating": 4.7,
+    "region": {
+      "countryId": 9001,
+      "id": 9015,
+      "name": "Белек"
+    },
+    "seaDistance": 200,
+    "subRegion": {
+      "id": 90151,
+      "name": "Кадрие",
+      "regionId": 9015
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-15",
+        "flightNights": 7,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900105-a",
+        "isCharter": true,
+        "isPromo": false,
+        "meal": {
+          "fullName": "All Inclusive",
+          "fullRussianName": "Всё включено",
+          "id": 907,
+          "name": "AI",
+          "russianName": "Всё включено"
+        },
+        "name": "DEMO Package 900105 A",
+        "nights": 7,
+        "operator": {
+          "fullName": "DEMO Operator Three",
+          "id": 9203,
+          "name": "DEMO-THREE",
+          "russianName": "ДЕМО Оператор Three"
+        },
+        "placement": "2 ADL + 1 CHD",
+        "price": 244000,
+        "roomId": 9506,
+        "roomType": "Family Garden Room"
+      }
+    ]
+  },
+  {
+    "category": 4,
+    "country": {
+      "id": 9001,
+      "name": "Турция"
+    },
+    "currency": "RUB",
+    "hasDescription": false,
+    "hasPictures": false,
+    "hotelDescription": "",
+    "hotelDescriptionLink": "",
+    "id": 900106,
+    "latitude": 0,
+    "longitude": 0,
+    "name": "DEMO Partial Data Hotel",
+    "picturelink": "",
+    "price": 231000,
+    "rating": 0,
+    "region": {
+      "countryId": 9001,
+      "id": 9012,
+      "name": "Сиде"
+    },
+    "seaDistance": 0,
+    "subRegion": {
+      "id": 0,
+      "name": "",
+      "regionId": 9012
+    },
+    "tours": [
+      {
+        "adults": 2,
+        "childs": 1,
+        "currency": "RUB",
+        "date": "2026-08-18",
+        "flightNights": 8,
+        "flightPlace": 0,
+        "fuelCharge": 0,
+        "hotelPlace": 0,
+        "id": "fixture-tour-900106-a",
+        "isCharter": true,
+        "isPromo": false,
+        "meal": {
+          "fullName": "All Inclusive",
+          "fullRussianName": "Всё включено",
+          "id": 907,
+          "name": "AI",
+          "russianName": "Всё включено"
+        },
+        "name": "DEMO Package 900106 A",
+        "nights": 8,
+        "operator": {
+          "fullName": "",
+          "id": 0,
+          "name": "",
+          "russianName": ""
+        },
+        "placement": "",
+        "price": 231000,
+        "roomId": 0,
+        "roomType": ""
+      }
+    ]
+  }
+]

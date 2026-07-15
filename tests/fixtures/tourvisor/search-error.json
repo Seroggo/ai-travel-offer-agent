@@ -1,0 +1,7 @@
+{
+  "fixtureType": "http-error",
+  "httpStatus": 503,
+  "body": {
+    "message": "DEMO Tourvisor service temporarily unavailable"
+  }
+}

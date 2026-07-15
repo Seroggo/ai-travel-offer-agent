@@ -1,0 +1,18 @@
+{
+  "raw_hotels": 6,
+  "normalized_tours": 7,
+  "hotel_tour_counts": {
+    "900101": 2,
+    "900102": 1,
+    "900103": 1,
+    "900104": 1,
+    "900105": 1,
+    "900106": 1
+  },
+  "hard_budget_expected_candidates_after_meal_and_flight_check": [
+    "fixture-tour-900101-a",
+    "fixture-tour-900102-a",
+    "fixture-tour-900106-a"
+  ],
+  "fixture": true
+}

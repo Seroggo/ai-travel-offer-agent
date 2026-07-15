@@ -1,0 +1,16 @@
+.env
+.env.local
+.env.*
+!.env.example
+
+.supabase/
+node_modules/
+coverage/
+dist/
+tmp/
+temp/
+_input/
+
+*.log
+.DS_Store
+Thumbs.db

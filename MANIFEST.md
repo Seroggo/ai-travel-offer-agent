@@ -1,0 +1,21 @@
+# Stage 0 package manifest
+
+- `docs/contracts/normalized-tour.md`
+- `docs/contracts/tourvisor-api.md`
+- `docs/contracts/travel-offer.md`
+- `docs/contracts/travel-request.md`
+- `docs/mock-data-spec.md`
+- `docs/product-spec.md`
+- `docs/ranking-rules.md`
+- `stage-0-final-report.md`
+- `tests/fixtures/tourvisor/README.md`
+- `tests/fixtures/tourvisor/expected/normalized-tours-summary.json`
+- `tests/fixtures/tourvisor/search-complete.json`
+- `tests/fixtures/tourvisor/search-empty.json`
+- `tests/fixtures/tourvisor/search-error.json`
+- `tests/fixtures/tourvisor/search-invalid-response.json`
+- `tests/fixtures/tourvisor/search-partial-timeout.json`
+- `tests/fixtures/tourvisor/search-processing.json`
+- `tests/fixtures/tourvisor/search-results.json`
+- `tests/fixtures/tourvisor/search-start-success.json`
+- `tests/fixtures/tourvisor/tour-flights-unavailable.json`
