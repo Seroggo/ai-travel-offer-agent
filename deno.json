@@ -2,6 +2,9 @@
   "compilerOptions": {
     "strict": true
   },
+  "imports": {
+    "zod": "npm:zod@4.4.3"
+  },
   "fmt": {
     "include": [
       "supabase/functions/",
