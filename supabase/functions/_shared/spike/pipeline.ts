@@ -25,6 +25,30 @@ export function runPipeline(
   return { ranked_tours: ranked, warnings };
 }
 
+export function runPipelineWithCandidates(
+  request: SpikeRequest,
+  candidates: SpikeTour[],
+): SpikePipelineResult {
+  const warnings: string[] = [];
+
+  if (candidates.length === 0) {
+    warnings.push("No valid candidates extracted from raw results");
+    return { ranked_tours: [], warnings };
+  }
+
+  const filtered = applyFilters(candidates, request);
+
+  if (filtered.length === 0) {
+    warnings.push("No tours match the specified filters");
+    return { ranked_tours: [], warnings };
+  }
+
+  const bestPerHotel = pickBestPerHotel(filtered);
+  const ranked = rankHotels(bestPerHotel, request).slice(0, 3);
+
+  return { ranked_tours: ranked, warnings };
+}
+
 function extractCandidates(rawResults: unknown[]): SpikeTour[] {
   const candidates: SpikeTour[] = [];
   for (const raw of rawResults) {

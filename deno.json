@@ -10,6 +10,7 @@
       "supabase/functions/",
       "tests/unit/",
       "tests/integration/",
+      "tests/tourvisor/",
       "deno.json"
     ],
     "useTabs": false,

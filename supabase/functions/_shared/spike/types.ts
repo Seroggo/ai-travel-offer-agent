@@ -1,6 +1,7 @@
 export type BudgetMode = "hard" | "soft" | "unknown";
 
 export type SpikeRequest = {
+  departure_id?: number | null;
   country_id: number;
   date_from: string;
   date_to: string;
@@ -11,6 +12,7 @@ export type SpikeRequest = {
   budget_max: number | null;
   budget_mode: BudgetMode;
   meal: string | null;
+  meal_id?: number | null;
   hotel_category_min: number | null;
   hotel_rating_min: number | null;
 };
